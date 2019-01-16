@@ -1,0 +1,61 @@
+/* 
+    Mattye Johnson
+*/
+
+body {
+   font-family: Arial;
+   padding: 20px;
+   background: #f1f1f1;
+}
+
+.title {
+    color: teal;
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+    border: teal dashed;
+}
+.leftcolumn {
+    float: left;
+    width: 73%;
+}
+.rightcolumn {
+    float: right;
+    width: 25%;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border: ridge teal;
+}
+.img {
+    background-color: #aaa;
+    width: 93%;
+    padding: 10px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+h2 {
+    color: darkgreen;
+    font-family: "Times New Roman";
+}
+a {
+    text-decoration: none;
+    color: purple;
+}
+
+a:hover {
+    text-decoration: overline underline;
+}
+
